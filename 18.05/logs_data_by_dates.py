@@ -3,6 +3,11 @@ may17 = datetime.date(2015, 5, 17)
 may18 = datetime.date(2015, 5, 18)
 may19 = datetime.date(2015, 5, 19)
 may20 = datetime.date(2015, 5, 20)
+
+
+
+
+
 def data_counter(fp, date):
     ip = []
     safari = []
