@@ -101,17 +101,14 @@ while True:
         txt += '\n'
     if counter%1 == 0 and counter%2 != 0 and counter%3 != 0:
         print("\033[31m{}" .format(txt))
-        time.sleep(1)
-        os.system('cls||clear')
+    
     elif counter%2 == 0 and counter%3 != 0:
         print("\033[33m{}" .format(txt))
-        time.sleep(1)
-        os.system('cls||clear')
+    
     elif counter%3 == 0 and counter%2 != 0:
         print("\033[34m{}" .format(txt))
-        time.sleep(1)
-        os.system('cls||clear')
+    
     else:
         print("\033[32m{}" .format(txt))
-        time.sleep(1)
-        os.system('cls||clear')
+    time.sleep(1)
+    os.system('cls||clear')
