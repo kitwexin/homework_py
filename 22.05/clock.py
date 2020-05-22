@@ -1,5 +1,6 @@
 import time
 import datetime
+import os
 
 def getnum(matrix):
     txt = matrix.replace('1','\u2593')
@@ -94,3 +95,4 @@ while True:
         txt += '\n'
     print(txt)
     time.sleep(1)
+    os.system('cls||clear')
